@@ -1,0 +1,64 @@
+/* Root Container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Centering vertically */
+  text-align: center;
+  gap: 2rem;
+}
+
+/* Card Layout */
+.card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Todo List Container (Centered) */
+.todo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Equal-sized responsive cards */
+  gap: 1rem;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+/* Individual Todo Card */
+.todo-card {
+  background: #ff8c8c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+  min-height: 120px;
+}
+
+/* Centering Buttons */
+.todo-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .todo-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

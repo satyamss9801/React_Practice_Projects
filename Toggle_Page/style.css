@@ -1,0 +1,23 @@
+.inn{
+    height: 400px;
+    width: 400px;
+    border: 4px solid black;
+    box-shadow: inset pink;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+   
+}
+.Toggle{
+    text-align: center;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}

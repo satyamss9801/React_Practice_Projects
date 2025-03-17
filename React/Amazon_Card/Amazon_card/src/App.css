@@ -1,0 +1,60 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.product-tab {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.product-tab {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 1.5rem;
+}
+
+.product h2 {
+  color: #333;
+  margin: 0 auto 1rem auto;
+  max-width: 80%;
+}
+
+.product p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.price {
+  background: #FFD700;
+  padding: 1.5rem;
+  border-radius: 4px;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 200px;
+}
+
+.price h3 {
+  color: #333;
+  margin: 0;
+}
+h1{
+  text-align: center;
+}

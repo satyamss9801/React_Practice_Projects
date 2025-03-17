@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NoteXpress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Top navigation bar -->
+  <nav>
+    <div class="logo"><h1>NoteXpress</h1></div>
+    <ul>
+      <li><a href="#">My Notes</a></li>
+      <li><a href="#">Notebooks</a></li> 
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- Sidebar for navigation -->
+    <aside>
+      <ul>
+        <li>All Notes</li>
+        <li>Notebooks
+          <ul>
+            <li>Work</li>
+            <li>Personal</li>
+          </ul>
+        </li>
+        <li>Tags
+          <ul>
+            <li>Todo</li>
+            <li>Reminders</li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    
+    <!-- List of notes -->
+    <section class="notes">
+      <h2>All Notes</h2>
+      
+      <div class="note">
+        <h3>Grocery list</h3>
+        <p>Last edited Yesterday</p>  
+      </div>
+      
+      <div class="note">
+        <h3>Secret note</h3>
+        <p>Last edited January 1, 2022</p>
+      </div>
+
+      
+
+      <input id="note-title" placeholder="Enter note title">
+<textarea id="note-content" placeholder="Enter note content"></textarea> 
+<button id="add-note">Add Note</button>
+
+      
+    </section>
+    
+  </main>
+  
+  <!-- Encryption password modal -->
+  <div class="modal">
+    <h2>Enter Password</h2>
+    <input type="password">
+    <button>OK</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>

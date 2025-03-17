@@ -1,0 +1,95 @@
+/* Style navigation bar */
+nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style sidebar */
+  aside {
+    background: #f9f9f9;
+    padding: 20px; 
+    width: 200px;
+  }
+  
+  /* Style main content */
+  main {
+    display: flex;
+  }
+  
+  .notes {
+    padding: 20px;
+  }
+  
+  .note {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style modal */
+  .modal {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal h2 {
+    color: #fff;
+  }
+  
+  .modal input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .modal button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .note {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+  }
+  
+  .note h3 {
+    font-size: 1.2em;
+    margin-top: 0;  
+  }
+  
+  .note p {
+    display: none; 
+  }
